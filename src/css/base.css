@@ -9,6 +9,7 @@ body {
         font-weight: 400;
         line-height: normal;
         letter-spacing: -0.04em;
+        margin: 0;
 }
 
 h1,
@@ -57,17 +58,28 @@ main {
     flex-grow: 1;
 }
 
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 /* ==== CONTAINER ==== */
+
 
 .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
 }
 
 @media screen and (min-width: 375px) {
     .container {
         max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
     }
 }
 
@@ -80,12 +92,16 @@ main {
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
         width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -97,6 +113,11 @@ main {
 
 /* ==== SECTION ==== */
 
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .section-title {
     color: var(--white, #fcf9f9);
     font-family: 'Manrope', sans-serif;
@@ -106,11 +127,30 @@ main {
     letter-spacing: -0.03em;
 }
 
+@media screen and (min-width: 375px) {
+
+        .section {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+}
+
 @media screen and (min-width: 768px) {
     .section-title {
         font-size: 44px;
         line-height: 1.45em;
     }
+        .section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+}
+
+@media screen and (min-width: 1280px) {
+   .section {
+            padding-top: 75px;
+            padding-bottom: 75px;
+        }
 }
 
 
