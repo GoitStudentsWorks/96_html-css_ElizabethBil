@@ -1,10 +1,92 @@
 /* ########### Common styles ###########  */
 
+/* container */
 
+.container {
+  padding: 0;
+}
 
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+}
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+/* to base */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* OUR COLLECTION */
+
+.collection-section {
+  background-color: #624f4f;
+  margin: 0 auto;
+}
+
+.collection-list {
+}
+
+.collection-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.collection-list-img {
+  margin-bottom: 18px;
+}
+
+.collection-list-item-title {
+  /* Box model */
+  margin-bottom: 8px;
+
+  /* Typography */
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.05;
+  text-transform: uppercase;
+}
+
+.collection-list-item-text {
+  /* Typography */
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: 1em;
+  letter-spacing: 0.05;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
