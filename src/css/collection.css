@@ -37,16 +37,12 @@
   }
 }
 /* to base */
+
 .section-title {
   text-align: center;
   margin-bottom: 40px;
 }
 /* OUR COLLECTION */
-
-.collection-section {
-  background-color: #624f4f;
-  margin: 0 auto;
-}
 
 .collection-list {
 }
