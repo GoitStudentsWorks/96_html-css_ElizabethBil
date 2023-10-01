@@ -1,15 +1,16 @@
 /* убрати рамку після виконання роботи */
-/* * { 
+* {
   outline: 1px solid tomato;
-}  */
+}
 
 @media screen and (min-width: 375px) {
-  .testimonials-section {
+  /* .testimonials-section {
     padding: 80px 0;
-  }
+  } */
 
   .testimonials-title {
-    margin-bottom: 64px;
+    margin-bottom: 31px;
+    text-align: left;
   }
 
   .testimonials-list .testimonials-list-item:not(:first-child) {
@@ -37,6 +38,8 @@
     margin-top: 20px;
   }
   .testimonials-list-text {
+    font-size: 14px;
+    font-weight: 400;
     text-align: center;
     width: 291px;
   }
@@ -61,6 +64,7 @@
 
 @media screen and (min-width: 768px) {
   .testimonials-title {
+    margin-bottom: 64px;
     text-align: left;
   }
   .testimonials-list .testimonials-list-item:not(:first-child) {
@@ -76,6 +80,9 @@
     gap: 32px;
   }
   .testimonials-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
     width: 300px;
   }
 }
