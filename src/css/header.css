@@ -91,7 +91,69 @@
 }
 /* Laptop Styles */
 @media screen and (min-width: 1280px) {
+  .header-button {
+    display: none;
+  }
+  .header-container {
+    max-width: 1280px;
+    padding: 2px 100px;
+  }
+  .header-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .header-nav-logo {
+    width: 44px;
+    height: 39px;
+  }
+  .header-nav-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .header-nav-link {
+    color: #fcf9f9;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+  }
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    color: #ecd979;
+  }
+  .header-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+  }
+  .header-address-link {
+    color: #fcf9f9;
+    font-size: 14px;
+    line-height: 1.43;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    padding: 14px 28px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+  }
+  .header-address-link:hover,
+  .header-address-link:focus {
+    border: 1px solid var(--yellow, #ecd979);
+  }
+  .header-socials-list {
+    margin-left: 20px;
+  }
 }
 /* Big Laptop Styles */
 @media screen and (min-width: 1440px) {
+  .header-container {
+    max-width: 1440px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
