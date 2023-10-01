@@ -63,16 +63,20 @@
 }
 
 @media screen and (min-width: 768px) {
+<<<<<<< Updated upstream
   .testimonials-title {
     margin-bottom: 64px;
     text-align: left;
   }
+=======
+>>>>>>> Stashed changes
   .testimonials-list .testimonials-list-item:not(:first-child) {
     display: flex;
   }
   .testimonials-list .testimonials-list-item:last-child {
     display: none;
   }
+
   .testimonials-list {
     display: flex;
     flex-direction: row;
