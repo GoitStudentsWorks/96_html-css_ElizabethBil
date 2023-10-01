@@ -21,6 +21,15 @@
 .collection-list-img {
   margin-bottom: 18px;
   border-radius: 4px;
+
+  transition: transform 0.2s,
+    box-shadow 0.5s cubic-bezier(0.28, 0.82, 0.71, 0.94);
+}
+
+.collection-list-img:hover,
+.collection-list-img:focus {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(236, 217, 121, 0.3);
 }
 
 .collection-list-item-title {
