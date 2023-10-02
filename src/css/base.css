@@ -112,11 +112,6 @@ main {
 
 /* ==== SECTION ==== */
 
-.section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .section-title {
   color: var(--white, #fcf9f9);
   font-family: 'Manrope', sans-serif;
@@ -126,11 +121,28 @@ main {
   letter-spacing: -0.03em;
 }
 
+.hero-section {
+  padding-top: 60px;
+}
+
+.section-about-us {
+  padding-top: 80px;
+}
+
+.collection-section {
+  padding-top: 18px;
+  padding-bottom: 80px;
+}
+
+.your-order-section {
+  padding-bottom: 81px;
+}
+
+.testimonials-section {
+  padding-bottom: 80px;
+}
+
 @media screen and (min-width: 375px) {
-  .section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -138,48 +150,48 @@ main {
     font-size: 44px;
     line-height: 1.45em;
   }
-  .section {
+
+  .hero-section {
+    padding-top: 80px;
+  }
+
+  .section-about-us {
+    padding-top: 100px;
+  }
+
+  .collection-section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+  }
+
+  .your-order-section {
+    padding-bottom: 100px;
+  }
+
+  .testimonials-section {
+    padding-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .section {
-    padding-top: 75px;
-    padding-bottom: 75px;
+  .hero-section {
+    padding-top: 100px;
   }
-}
 
-/* manrope-regular - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+  .section-about-us {
+    padding-top: 150px;
+  }
 
-/* manrope-500 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/manrope-v15-latin-500.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+  .collection-section {
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
 
-/* manrope-600 - latin */
-@font-face {
-  font-display: swap;
-  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/manrope-v15-latin-600.woff2') format('woff2');
-  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  .your-order-section {
+    padding-bottom: 150px;
+  }
+
+  .testimonials-section {
+    padding-bottom: 150px;
+  }
 }
