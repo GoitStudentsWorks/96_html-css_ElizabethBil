@@ -15,6 +15,7 @@
 
 .order-bkg-img {
     height: 550px;
+    margin-bottom: 80px;
 }
 
 .order-title {
@@ -24,7 +25,6 @@
     letter-spacing: -0.03em;
     color: #FCF9F9;
     max-width: 320px;
-    margin-top: 80px;
     margin-bottom: 40px;
 }
 
@@ -110,8 +110,210 @@
 }
 
 
-@media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1280px) {}
+
+@media screen and (min-resolution: 192dpi) and (min-width:768px) {
+    .your-order-section {
+        background-image: url('../img/order/order-bkg-tablet@2x.jpg')
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .your-order-section {
+        max-width: 100%;
+        background-image: url('../img/order/order-bkg-tablet.jpg'),
+            url('../img/order/bkg-element-tablet.png');
+        background-size: 768px 776px, ;
+        background-repeat: no-repeat;
+        background-position-x: center, left;
+        background-position-y: 50px, bottom;
+    }
+
+    .order-bkg-img {
+        height: 776px;
+        margin-bottom: 100px;
+    }
+
+
+
+    .order-title {
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 1.31;
+        letter-spacing: -0.03em;
+        color: #FCF9F9;
+        max-width: 545px;
+        margin-bottom: 40px;
+    }
+
+    .order-form-input {
+        display: block;
+        width: 508px;
+        height: 50px;
+        padding: 14px 16px;
+        background-color: transparent;
+        outline: transparent;
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02em;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+    }
+
+    .order-form-coment {
+        display: block;
+        width: 508px;
+        height: 196px;
+        padding: 14px 16px;
+        background-color: transparent;
+        outline: transparent;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02em;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        margin-bottom: 40px;
+    }
+
+    .order-button {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 145px;
+        height: 49px;
+        padding: 14px 36px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        background-color: transparent;
+        outline: transparent;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 100px;
+        color: var(--white, #FCF9F9);
+    }
+
+    .order-content-img {
+        display: block;
+    }
+
+    .bkg-ornament-placeholder {
+        height: 79px;
+    }
+}
+
+
+@media screen and (min-resolution: 192dpi) and (min-width:1280px) {
+    .your-order-section {
+        background-image: url('../img/order/order-bkg-desktop@2x.jpg')
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .your-order-section {
+        max-width: 100%;
+        background-image: url('../img/order/order-bkg-desktop.jpg');
+        background-size: 1282px 776px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 75px;
+    }
+
+    .order-bkg-img {
+        height: 776px;
+        margin-bottom: 150px;
+    }
+
+    .order-flex-wrapper {
+        display: flex;
+    }
+
+
+    .order-title {
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 1.31;
+        letter-spacing: -0.03em;
+        color: #FCF9F9;
+        max-width: 545px;
+        margin-bottom: 40px;
+    }
+
+    .order-form-input {
+        display: block;
+        width: 508px;
+        height: 50px;
+        padding: 14px 16px;
+        background-color: transparent;
+        outline: transparent;
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02em;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+    }
+
+    .order-form-coment {
+        display: block;
+        width: 508px;
+        height: 196px;
+        padding: 14px 16px;
+        background-color: transparent;
+        outline: transparent;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02em;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        margin-bottom: 40px;
+    }
+
+    .order-button {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 145px;
+        height: 49px;
+        padding: 14px 36px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        background-color: transparent;
+        outline: transparent;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 100px;
+        color: var(--white, #FCF9F9);
+    }
+
+    .order-content-img-wrapper {
+        margin-left: auto;
+        order: 1;
+    }
+
+    .order-content-img {
+        display: block;
+    }
+
+    /* .bkg-ornament-placeholder {
+        height: 79px;
+    } */
+}
 
 @media screen and (min-width: 1440px) {}
