@@ -4,7 +4,7 @@
     background-size: 375px 550px;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 40px;
+    background-position-y: top;
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width:375px) {
@@ -24,7 +24,7 @@
     line-height: 1.36;
     letter-spacing: -0.03em;
     color: #FCF9F9;
-    max-width: 320px;
+    max-width: 350px;
     margin-bottom: 40px;
 }
 
@@ -125,10 +125,10 @@
         max-width: 100%;
         background-image: url('../img/order/order-bkg-tablet.jpg'),
             url('../img/order/bkg-element-tablet.png');
-        background-size: 768px 776px, ;
+        background-size: 768px 776px, 288px 484px;
         background-repeat: no-repeat;
         background-position-x: center, left;
-        background-position-y: 50px, bottom;
+        background-position-y: top, bottom;
     }
 
     .order-bkg-img {
@@ -197,7 +197,6 @@
         text-transform: uppercase;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 100px;
         color: var(--white, #FCF9F9);
     }
 
@@ -222,11 +221,12 @@
 
     .your-order-section {
         max-width: 100%;
-        background-image: url('../img/order/order-bkg-desktop.jpg');
-        background-size: 1282px 776px;
+        background-image: url('../img/order/order-bkg-desktop.jpg'),
+            url('../img/order/bkg-element-desktop.png');
+        background-size: 1282px 776px, 288px 484px;
         background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 75px;
+        background-position-x: center, left;
+        background-position-y: top, bottom;
     }
 
     .order-bkg-img {
@@ -236,6 +236,11 @@
 
     .order-flex-wrapper {
         display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .order-form-wrapper {
+        margin-left: 50px;
     }
 
 
@@ -298,13 +303,11 @@
         text-transform: uppercase;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 100px;
         color: var(--white, #FCF9F9);
     }
 
     .order-content-img-wrapper {
         margin-left: auto;
-        order: 1;
     }
 
     .order-content-img {
