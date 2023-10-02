@@ -1,3 +1,115 @@
+.your-order-section {
+    max-width: 100%;
+    background-image: url('../img/order/order-bkg-mobile.jpg');
+    background-size: 375px 550px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 40px;
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width:375px) {
+    .your-order-section {
+        background-image: url('../img/order/order-bkg-mobile@2x.jpg')
+    }
+}
+
+.order-bkg-img {
+    height: 550px;
+}
+
+.order-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.36;
+    letter-spacing: -0.03em;
+    color: #FCF9F9;
+    max-width: 320px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.order-colored-part {
+    color: #ECD979;
+}
+
+.order-section-field-wrapper {
+    margin-bottom: 20px;
+}
+
+.order-form-input {
+    display: block;
+    width: 335px;
+    height: 47px;
+    padding: 14px 16px;
+    background-color: transparent;
+    outline: transparent;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+.order-form-input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
+
+.order-section-textarea-wrapper {
+    margin-bottom: 40px;
+}
+
+
+.order-form-coment {
+    display: block;
+    width: 335px;
+    height: 196px;
+    padding: 14px 16px;
+    background-color: transparent;
+    outline: transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    margin-bottom: 40px;
+}
+
+.order-form-coment::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
+
+.order-button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 145px;
+    height: 49px;
+    padding: 14px 36px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    outline: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white, #FCF9F9);
+}
+
+.order-button-icon {
+    margin-left: 10px;
+}
+
+.order-content-img {
+    display: none;
+}
+
+
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1280px) {}
