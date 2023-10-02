@@ -10,8 +10,8 @@
 .collection-section {
   background-image: url(../img/collection/bg-ornament-mob.png);
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position-y: 298px;
+  background-size: 72px 177px;
+  background-position-y: 327px;
 }
 
 .collection-list-item:not(:last-child) {
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1em;
-  letter-spacing: 0.05;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -51,15 +51,15 @@
   color: rgba(252, 249, 249, 0.4);
   font-size: 14px;
   line-height: 1em;
-  letter-spacing: 0.05;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
   .collection-section {
     background-image: url(../img/collection/bg-ornament-tab.png);
-    background-position-y: 72px;
-    padding-top: 0;
+    background-position-y: 271px;
+    background-size: 114px 300px;
   }
 
   .collection-list {
@@ -76,7 +76,8 @@
 @media screen and (min-width: 1280px) {
   .collection-section {
     background-image: url(../img/collection/bg-ornament.png);
-    background-position-y: 232px;
+    background-size: 169px 300px;
+    background-position-y: 231px;
   }
 
   .collection-list {
@@ -91,7 +92,7 @@
 @media screen and (min-width: 1440px) {
   .collection-section {
     background-image: url(../img/collection/bg-ornament.png);
-    background-position-y: 226px;
+    background-position-y: 301px;
   }
 
   .collection-list {
