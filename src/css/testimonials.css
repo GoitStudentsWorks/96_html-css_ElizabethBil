@@ -1,7 +1,8 @@
 /* убрати рамку після виконання роботи */
 * {
-  outline: 1px solid tomato;
+  outline: 0.5px solid rgb(100, 66, 66, 0.15);
 }
+/* убрати рамку після виконання роботи */
 
 @media screen and (min-width: 375px) {
   .testimonials-title {
