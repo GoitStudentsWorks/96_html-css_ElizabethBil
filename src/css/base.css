@@ -139,6 +139,7 @@ main {
 }
 
 .testimonials-section {
+  padding-top: 81px;
   padding-bottom: 80px;
 }
 
@@ -165,10 +166,10 @@ main {
   }
 
   .your-order-section {
-    padding-bottom: 100px;
   }
 
   .testimonials-section {
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 }
@@ -188,10 +189,10 @@ main {
   }
 
   .your-order-section {
-    padding-bottom: 150px;
   }
 
   .testimonials-section {
+    padding-top: 150px;
     padding-bottom: 150px;
   }
 }
