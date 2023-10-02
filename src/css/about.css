@@ -10,11 +10,20 @@
 @media screen and (min-width: 768px) {
     .section-about-us{
         background-image: url(../img/about/ornamet-about-tablet.png);
-        background-position-x: right;
-        background-position-y: bottom;
+       
     }
 }
 
+@media screen and (min-width: 1280px) {
+    .section-about-us {
+    background-image: url(../img/about/ornament-desctop1280.png);
+    }
+}
+@media screen and (min-width: 1440px) {
+    .section-about-us {
+        background-image: url(../img/about/ornament-descktop1440.png);
+    }
+}
 .about-us-title{
     color: var(--white, rgb(252, 249, 249));
     font-size: 32px;
@@ -62,6 +71,11 @@
     max-width: 436px;
     }
 }
+@media screen and (min-width: 1440px) {
+    .about-us-text {
+            max-width: 481px;
+        }
+}
 
 @media screen and (min-width: 1280px) {
     .about-container {
@@ -75,6 +89,3 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
-    
-}
