@@ -9,16 +9,20 @@
       </a>
       <ul class="header-nav-list">
         <li class="header-nav-list-item">
-          <a href="#" class="header-nav-link">about us</a>
+          <a href="./index.html#about-us" class="header-nav-link">about us</a>
         </li>
         <li class="header-nav-list-item">
           <a href="#" class="header-nav-link">our collection</a>
         </li>
         <li class="header-nav-list-item">
-          <a href="#" class="header-nav-link">customer order</a>
+          <a href="./index.html#order-section" class="header-nav-link"
+            >customer order</a
+          >
         </li>
         <li class="header-nav-list-item">
-          <a href="#" class="header-nav-link">testimonials</a>
+          <a href="./index.html#testimonials" class="header-nav-link"
+            >testimonials</a
+          >
         </li>
       </ul>
     </nav>
@@ -29,28 +33,38 @@
     </address>
     <ul class="header-socials-list">
       <li class="header-socials-item">
-        <a href="#" class="header-socials-link">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          class="header-socials-link"
+        >
           <svg class="header-socials-icon" width="28" height="28">
             <use href="./img/icons.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
       <li class="header-socials-item">
-        <a href="#" class="header-socials-link">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          class="header-socials-link"
+        >
           <svg class="header-socials-icon" width="28" height="28">
             <use href="./img/icons.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="header-socials-item">
-        <a href="#" class="header-socials-link">
+        <a
+          href="#
+        https://www.youtube.com/c/GoIT"
+          class="header-socials-link"
+        >
           <svg class="header-socials-icon" width="28" height="28">
             <use href="./img/icons.svg#icon-youtube"></use>
           </svg>
         </a>
       </li>
     </ul>
-    <button class="header-button">
+    <button class="header-button" data-modal-open>
       <svg class="header-button-icon" width="46" height="36">
         <use href="./img/icons.svg#icon-navigation"></use>
       </svg>
@@ -58,7 +72,7 @@
   </div>
 </header>
 <!-- Mobile Menu -->
-<div class="header-mobile-menu">
+<div class="header-mobile-menu is-hidden" data-modal>
   <div class="header-content-container">
     <ul class="header-mobile-list">
       <li class="header-menu-first-item">
@@ -69,7 +83,7 @@
         </address>
       </li>
       <li class="header-menu-second-item">
-        <button class="header-mobile-button">
+        <button class="header-mobile-button" data-modal-close>
           <svg class="header-mobile-icon" width="36" height="36">
             <use href="./img/icons.svg#icon-close"></use>
           </svg>

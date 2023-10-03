@@ -76,14 +76,11 @@
   background-repeat: no-repeat;
   background-size: 274px;
   background-position: center bottom;
+}
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
 }
 .header-content-container {
   width: 274px;
@@ -115,7 +112,7 @@
   line-height: 1.17;
   text-transform: uppercase;
   font-style: normal;
-  letter-spacing: 0.04em;
+  letter-spacing: 0;
   color: #1c2225;
   font-size: 12px;
   padding: 12px 20px;
@@ -146,6 +143,7 @@
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
+  letter-spacing: 0;
 }
 /* Tablet Styles */
 @media screen and (max-width: 1279px) {
@@ -235,6 +233,7 @@
     font-size: 14px;
     line-height: 1.29;
     text-transform: uppercase;
+    letter-spacing: 0;
   }
   .header-nav-link:hover,
   .header-nav-link:focus {
@@ -253,7 +252,7 @@
     line-height: 1.43;
     text-transform: uppercase;
     font-style: normal;
-    letter-spacing: 0.04em;
+    letter-spacing: 0;
     padding: 14px 28px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
