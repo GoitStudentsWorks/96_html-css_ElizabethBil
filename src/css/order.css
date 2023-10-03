@@ -189,6 +189,8 @@
 
     .order-content-img {
         display: block;
+        height: 521px;
+        margin-left: auto;
     }
 
     .bkg-ornament-placeholder {
@@ -269,7 +271,7 @@
     .your-order-section {
         background-image: url('../img/order/order-bkg-desktop-1440.jpg'),
             url('../img/order/bkg-element-desktop-1440.png');
-        background-size: 100% 776px, 323px 484px;
+        background-size: 1440px 776px, 323px 484px;
     }
 
 
@@ -279,6 +281,11 @@
 
     .order-content-img {
         margin-left: 0;
+    }
+
+    .order-button {
+        padding: 14px 39px;
+
     }
 
 }
