@@ -1,3 +1,104 @@
+@media screen and (min-width: 1440px) {
+    .footer-section {
+        width: 1440px;
+        height: 363px;
+        flex-shrink: 0;
+        border-top: 1px solid rgba(252, 249, 249, 0.10);
+    }
+
+    .logo-footer-cont {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: -1.92px;
+        width: 754px;
+    }
+
+    .Ukrainian {
+        color: var(--white, #ECD979);
+    }
+
+    .g8.png {
+        display: flex;
+        width: 595px;
+        height: 528px;
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .footerlist-sections {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .footer-link-menu {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .footer-section {
+        width: 768px;
+        height: 370px;
+        flex-shrink: 0;
+        border-top: 1px solid rgba(252, 249, 249, 0.10);
+    }
+
+    .logo-footer-cont {
+        width: 521px;
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: -1.62px;
+    }
+
+    .Ukrainian {
+        color: var(--white, #ECD979);
+    }
+
+    .g8.png {
+        display: flex;
+        width: 452px;
+        height: 401px;
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .footerlist-sections {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .footer-link-menu {
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+}
+
 @media screen and (min-width: 768px) {
 .footer-section {
     width: 375px;
@@ -49,98 +150,3 @@
 
 }
 
-@media screen and (min-width: 1280px) {
-
-.footer-section {
-        width: 768px;
-        height: 370px;
-        flex-shrink: 0;
-        border-top: 1px solid rgba(252, 249, 249, 0.10);
-    }
-
-    .logo-footer-cont {
-width: 521px;
-color: var(--white, #FCF9F9);
-font-family: Manrope;
-font-size: 54px;
-font-style: normal;
-font-weight: 400;
-line-height: 64px; 
-letter-spacing: -1.62px;
-    }
-
-    .Ukrainian {
-        color: var(--white, #ECD979);
-    }
-
-    .g8.png {
-            display: flex;
-            width: 452px;
-            height: 401px;
-            padding-right: 0px;
-            justify-content: center;
-            align-items: center;
-            flex-shrink: 0;
-    }
-
-    .footerlist-sections {
-        display: inline-flex;
-        align-items: flex-start;
-        gap: 25px;
-    }
-
-    .footer-link-menu {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        text-transform: uppercase;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-.footer-section {
-        width: 1440px;
-        height: 363px;
-        flex-shrink: 0;
-        border-top: 1px solid rgba(252, 249, 249, 0.10);
-}
-    .logo-footer-cont {
-    color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 74px;
-        letter-spacing: -1.92px;
-        width: 754px;
-}
-.Ukrainian {
-    color: var(--white, #ECD979);
-}
-.g8.png {
-        display: flex;
-        width: 595px;
-        height: 528px;
-        padding-right: 0px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-}
-.footerlist-sections {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 25px;
-}
-.footer-link-menu {
-    color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        text-transform: uppercase;
-}
-}
