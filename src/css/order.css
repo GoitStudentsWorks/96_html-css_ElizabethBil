@@ -157,6 +157,10 @@
         margin-bottom: 100px;
     }
 
+    .order-form-wrapper {
+        margin-bottom: 100px;
+    }
+
     .order-title {
         line-height: 1.31;
         max-width: 545px;
@@ -218,6 +222,11 @@
     .order-bkg-img {
         height: 776px;
         margin-bottom: 150px;
+    }
+
+
+    .order-form-wrapper {
+        margin-bottom: 0;
     }
 
     .order-flex-wrapper {
