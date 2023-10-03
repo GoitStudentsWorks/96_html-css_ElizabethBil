@@ -12,7 +12,7 @@
 
 @media screen and (min-resolution: 192dpi) and (min-width:375px) {
     .your-order-section {
-        background-image: url('../img/order/order-bkg-mobile@2x.jpg')
+        background-image: url('../img/order/order-bkg-mobile@2x.jpg');
     }
 }
 
@@ -135,7 +135,8 @@
 
 @media screen and (min-resolution: 192dpi) and (min-width:768px) {
     .your-order-section {
-        background-image: url('../img/order/order-bkg-tablet@2x.jpg')
+        background-image: url('../img/order/order-bkg-tablet@2x.jpg'),
+            url('../img/order/bkg-element-tablet@2x.png');
     }
 }
 
@@ -202,7 +203,8 @@
 
 @media screen and (min-resolution: 192dpi) and (min-width:1280px) {
     .your-order-section {
-        background-image: url('../img/order/order-bkg-desktop@2x.jpg')
+        background-image: url('../img/order/order-bkg-desktop@2x.jpg'),
+            url('../img/order/bkg-element-desktop@2x.png');
     }
 }
 
@@ -224,7 +226,6 @@
         margin-bottom: 150px;
     }
 
-
     .order-form-wrapper {
         margin-bottom: 0;
     }
@@ -238,18 +239,14 @@
         margin-left: 50px;
     }
 
-
     .order-title {
         max-width: 545px;
         margin-bottom: 40px;
     }
 
-    .order-content-img-wrapper {
-        margin-left: auto;
-    }
-
     .order-content-img {
-        display: block;
+        margin-left: -36px;
+        height: 521px;
     }
 
     .bkg-ornament-placeholder {
@@ -257,6 +254,37 @@
     }
 }
 
-/* ======DESKTOP===== */
+/* ======DESKTOP 1440===== */
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-resolution: 192dpi) and (min-width:1440px) {
+    .your-order-section {
+        background-image: url('../img/order/order-bkg-desktop-1440@2x.jpg'),
+            url('../img/order/bkg-element-desktop-1440@2x.png');
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .your-order-section {
+        background-image: url('../img/order/order-bkg-desktop-1440.jpg'),
+            url('../img/order/bkg-element-desktop-1440.png');
+        background-size: 100% 776px, 323px 484px;
+    }
+
+
+    .order-title {
+        max-width: 666px;
+    }
+
+    .order-content-img {
+        margin-left: 0;
+    }
+
+}
+
+
+
+
+
+/* ======/DESKTOP===== */
