@@ -11,19 +11,28 @@
       </svg>
     </button>
     <img
-      srcset="./img/hero/girl@2x.jpg 2x"
+      srcset="
+        ./img/hero/girl-desktop.jpg    392w,
+        ./img/hero/girl-desktop@2x.jpg 784w,
+        ./img/hero/girl-tablet.jpg     413w,
+        ./img/hero/girl-tablet@2x.jpg  826w,
+        ./img/hero/girl.jpg            335w,
+        ./img/hero/girl@2x.jpg         670w
+      "
       src="./img/hero/girl.jpg"
       alt="Girl in an vyshyvanka"
       class="hero-img"
     />
   </div>
   <div class="hero-icon-img">
-    <svg class="hero-svg-star">
-      <use class="hero-star"></use>
+    <svg class="hero-svg-star" width="52" height="51">
+      <use class="hero-star" href="./img/icons.svg#icon-star"></use>
     </svg>
-    <p class="hero-star-text"></p>
-    <svg class="hero-svg-elipse">
-      <use class="hero-elipse-icon"></use>
-    </svg>
+    <p class="hero-star-text">all embroidery is made by hand</p>
+    <img
+      class="hero-elipse"
+      src="./img/hero/veshyv.png"
+      alt="elipse-vyshyvanka"
+    />
   </div>
 </section>
