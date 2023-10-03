@@ -56,6 +56,9 @@
     border-radius: 4px;
     width: 335px;
     height: 545px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(/src/img/hero/girl.jpg), lightgray 50% / cover no-repeat;
   }
 }
 
@@ -119,12 +122,15 @@
     border-radius: 4px;
     width: 335px;
     height: 545px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(/src/img/hero/girl.jpg), lightgray 50% / cover no-repeat;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero-icon-img {
-    display: flex;
+    display: block;
   }
 
   .hero-title {
@@ -140,6 +146,74 @@
 
   .hero-title-span {
     color: var(--white, #ecd979);
+  }
+
+  .hero-button {
+    display: flex;
+    width: 168px;
+    padding: 14px 39px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-bottom: 40px;
+  }
+
+  .hero-btn-text {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+  }
+
+  .hero-img {
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 413px;
+    height: 575px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(/src/img/hero/girl.jpg), lightgray 50% / cover no-repeat;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-icon-img {
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    right: 100%;
+  }
+
+  .hero-star-text {
+    width: 115px;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-elipse {
+    width: 139px;
+    height: 197px;
+    flex-shrink: 0;
+  }
+
+  .all {
+    display: inline-block;
   }
 }
 
