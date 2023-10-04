@@ -50,6 +50,10 @@
   text-transform: uppercase;
 }
 
+.hero-button-link {
+  display: flex;
+}
+
 .hero-svg {
   margin-left: 10px;
 }
@@ -143,15 +147,40 @@
     margin-top: 94px;
 }
 
+.hero-title {
+  width: 518px;
+}
+
 .hero-img {
   margin: 0;
 }
 
 .hero-svg-star {
-  
+  top: 14px;
+}
+
+.hero-elipse {
+
 }
 
 }
 
 @media screen and (min-width: 1440px) {
+
+.hero-picture-btn {
+  margin-top: 66px;
+}
+
+.hero-title {
+        font-size: 64px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        width: 626px;
+  }
+
+    .hero-svg-star {
+      top: 66px;
+    }
+
+
 }
