@@ -28,6 +28,7 @@
   font-size: 44px;
   line-height: 1.22;
   letter-spacing: -0.03em;
+  font-weight: 400;
 
   /* Box model */
   width: 335px;
@@ -35,7 +36,7 @@
 }
 
 .footer-section {
-  background-image: url(../img/footer/bg-footer-mob.png);
+  background-image: url(/img/footer/bg-footer-mob.png);
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 216px;
@@ -44,7 +45,7 @@
 
 @media screen and (min-width: 768px) {
   .footer-section {
-    background-image: url(../img/footer/bg-footer-tab.png);
+    background-image: url(/img/footer/bg-footer-tab.png);
     background-position: top right;
     padding-bottom: 0;
     background-size: 178px 369px;
@@ -53,7 +54,6 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 25px;
-    margin-bottom: 80px;
   }
 
   .footer-list-item {
@@ -68,6 +68,7 @@
 
     /* Box model */
     width: 521px;
+    margin-bottom: 0;
   }
 
   .footer-container {
@@ -77,7 +78,7 @@
 
 @media screen and (min-width: 1280px) {
   .footer-section {
-    background-image: url(../img/footer/bg-footer-1280.png);
+    background-image: url(/img/footer/bg-footer-1280.png);
     background-position: top right;
     padding-bottom: 0;
     background-size: 336px 363px;
@@ -97,4 +98,43 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .footer-section {
+    background-image: url(/img/footer/bg-footer-1440.png);
+    background-position: top right;
+    padding-bottom: 0;
+    background-size: 496px 363px;
+  }
+}
+
+/* ##### Background image x2 ##### */
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .collection-section {
+    background-image: url(/img/footer/bg-footer-mob@2x.png);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .collection-section {
+    background-image: url(/img/footer/bg-footer-tab@2x.png);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .collection-section {
+    background-image: url(/img/footer/bg-footer-1280@2x.png);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  .collection-section {
+    background-image: url(/img/footer/bg-footer-1440@2x.png);
+  }
 }
