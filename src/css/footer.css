@@ -1,43 +1,16 @@
-@media screen and (min-width: 1440px) {
-    .footer-section {
-        width: 1440px;
-        height: 363px;
-        flex-shrink: 0;
-        border-top: 1px solid rgba(252, 249, 249, 0.10);
-    }
+.footerlist-sections {
+}
 
-    .logo-footer-cont {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 64px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 74px;
-        letter-spacing: -1.92px;
-        width: 754px;
-    }
+.footer-list-menu {
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    width: 280px;
+height: 61px;
+}
 
-    .Ukrainian {
-        color: var(--white, #ECD979);
-    }
-
-    .g8.png {
-        display: flex;
-        width: 595px;
-        height: 528px;
-        padding-right: 0px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-    }
-
-    .footerlist-sections {
-        display: inline-flex;
-        align-items: flex-start;
-        gap: 25px;
-    }
-
-    .footer-link-menu {
+.footer-link-menu {
         color: var(--white, #FCF9F9);
         font-family: Manrope;
         font-size: 14px;
@@ -45,8 +18,60 @@
         font-weight: 400;
         line-height: 18px;
         text-transform: uppercase;
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+.footer-section {
+    width: 375px;
+    height: 649px;
+    flex-shrink: 0;
+        border-top: 1px solid rgba(252, 249, 249, 0.10);
+    }
+
+    .logo-footer-cont {
+    width: 335px;
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -1.32px;
+    }
+
+    .Ukrainian {
+        color: var(--white, #ECD979);
+    }
+
+    .bg-picture {
+    display: flex;
+    width: 452px;
+    height: 401px;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    }
+
+    /* .footerlist-sections {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    } */
+
+
+}
+
 
 @media screen and (min-width: 1280px) {
 
@@ -87,35 +112,26 @@
         align-items: flex-start;
         gap: 25px;
     }
-
-    .footer-link-menu {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 18px;
-        text-transform: uppercase;
-    }
 }
 
-@media screen and (min-width: 768px) {
-.footer-section {
-    width: 375px;
-    height: 649px;
-    flex-shrink: 0;
+
+@media screen and (min-width: 1440px) {
+    .footer-section {
+        width: 1440px;
+        height: 363px;
+        flex-shrink: 0;
         border-top: 1px solid rgba(252, 249, 249, 0.10);
     }
 
     .logo-footer-cont {
-    width: 335px;
-    color: var(--white, #FCF9F9);
-    font-family: Manrope;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 54px;
-    letter-spacing: -1.32px;
+        color: var(--white, #FCF9F9);
+        font-family: Manrope;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: -1.92px;
+        width: 754px;
     }
 
     .Ukrainian {
@@ -123,30 +139,21 @@
     }
 
     .g8.png {
-    display: flex;
-    width: 452px;
-    height: 401px;
-    padding-right: 0px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
+        display: flex;
+        width: 595px;
+        height: 528px;
+        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
     }
 
     .footerlist-sections {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 25px;
     }
 
-    .footer-link-menu {
-    color: var(--white, #FCF9F9);
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    text-transform: uppercase;
-    }
-
+    
 }
 
