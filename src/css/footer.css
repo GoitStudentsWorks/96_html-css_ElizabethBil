@@ -1,30 +1,26 @@
 .footerlist-sections {
-    margin: auto;
+    height: 61px;
 }
 
 .footer-list-menu {
-     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 280px;
-height: 61px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.footer-list-menu li {
+  width: calc((100% - 25px) / 2);
 }
 
 .footer-link-menu {
-        color: var(--white, #FCF9F9);
-        font-family: Manrope;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 1.29;
-        text-transform: uppercase;
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  text-transform: uppercase;
 }
-
-
-
-
-
-
-
 
 /* 
 
