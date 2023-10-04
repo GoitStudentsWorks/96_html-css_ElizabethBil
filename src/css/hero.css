@@ -135,16 +135,20 @@
 .hero-picture-btn-icon {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 40px;
 }
 
 .hero-picture-btn {
-  display: flex;
-  
-
+    margin-top: 94px;
 }
 
 .hero-img {
   margin: 0;
+}
+
+.hero-svg-star {
+  
 }
 
 }
