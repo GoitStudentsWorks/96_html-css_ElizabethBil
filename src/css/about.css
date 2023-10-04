@@ -59,7 +59,9 @@ padding-bottom: 62px;
 .img-about-us{
     width: 335px;
     height: 499px;
+    border-radius: 4px;
 }
+
 @media screen and (min-width: 768px){
     .img-about-us {
         height: 545px;
