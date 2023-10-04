@@ -1,12 +1,12 @@
 .footerlist-sections {
+    margin: auto;
 }
 
 .footer-list-menu {
      display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
-    width: 280px;
+    max-width: 280px;
 height: 61px;
 }
 
@@ -14,9 +14,8 @@ height: 61px;
         color: var(--white, #FCF9F9);
         font-family: Manrope;
         font-size: 14px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 1.29;
         text-transform: uppercase;
 }
 
@@ -27,8 +26,7 @@ height: 61px;
 
 
 
-
-
+/* 
 
 @media screen and (min-width: 768px) {
 .footer-section {
@@ -63,13 +61,12 @@ height: 61px;
     flex-shrink: 0;
     }
 
-    /* .footerlist-sections {
+
+.footerlist-sections {
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
-    } */
-
-
+}
 }
 
 
@@ -156,4 +153,4 @@ height: 61px;
 
     
 }
-
+ */
