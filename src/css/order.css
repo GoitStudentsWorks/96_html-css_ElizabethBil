@@ -130,6 +130,23 @@
     display: none;
 }
 
+
+
+
+.order-bkg-img {
+    position: relative;
+}
+
+.order-scroll {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+bottom: 0;
+}
+
+
+
+
 /* ======/MOBILE===== */
 
 /* ======TABLET===== */
