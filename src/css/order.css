@@ -198,6 +198,11 @@
     .bkg-ornament-placeholder {
         height: 79px;
     }
+
+    .order-button {
+        padding: 14px 39px;
+
+    }
 }
 
 
@@ -284,11 +289,6 @@
 
     .order-content-img {
         margin-left: 0;
-    }
-
-    .order-button {
-        padding: 14px 39px;
-
     }
 
 }
