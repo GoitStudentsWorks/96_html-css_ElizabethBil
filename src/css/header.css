@@ -1,11 +1,11 @@
 /* Mobile Styles */
 .page-header {
   margin: 0 auto;
+  padding-top: 20px;
 }
 .header-container {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   padding: 4px 20px;
   box-sizing: border-box;
   width: 100%;
