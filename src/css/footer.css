@@ -43,6 +43,14 @@
   background-size: 375px 212px;
 }
 
+
+ @media screen and (max-width: 374px) {
+  .footer-title {
+    width: 100%;
+  }
+ }
+
+
 @media screen and (min-width: 768px) {
   .footer-section {
     background-image: url(/img/footer/bg-footer-tab.png);

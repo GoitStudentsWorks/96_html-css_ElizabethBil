@@ -56,6 +56,18 @@
     top: -24px;
   }
 
+    @media screen and (max-width: 374px) {
+
+      .testimonials-list-title {
+    width: 100%;
+  }
+
+ .testimonials-list-text {
+  width: 100%;
+ }
+    }
+
+    
 
 @media screen and (min-width: 768px) {
   .testimonials-title {
