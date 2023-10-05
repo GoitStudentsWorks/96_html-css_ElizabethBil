@@ -13,6 +13,9 @@
 
 
 .collection-section {
+  background-image: url(/img/collection/bg-ornament-mob.png);
+    background-repeat: no-repeat;
+    background-size: 72px 177px;
   background-position-y: 327px;
 }
 
