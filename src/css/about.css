@@ -4,10 +4,12 @@ padding-top: 80px;
 padding-bottom: 62px;
     background-image: url(/img/about/about-ornamets-mobile.png);
     background-position-x: right;
-        background-position-y: 761px;
+        background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: 248px 393px;
 }
+
+
 
 @media screen and (min-width: 768px) {
     .section-about-us{
