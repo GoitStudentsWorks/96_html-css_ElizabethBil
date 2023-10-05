@@ -21,6 +21,7 @@
     margin-bottom: 80px;
 }
 
+
 .order-title {
     line-height: 1.36;
     max-width: 350px;
@@ -144,6 +145,16 @@
     bottom: 0;
 }
 
+
+@media screen and (max-width: 374px) {
+    .order-form-input {
+        width: 100%;
+    }
+
+        .order-form-coment {
+            width: 100%;
+        }
+}
 
 
 

@@ -5,12 +5,14 @@
   margin-bottom: 40px;
 }
 
+
+
 /* OUR COLLECTION */
 
+
+
+
 .collection-section {
-  background-image: url(/img/collection/bg-ornament-mob.png);
-  background-repeat: no-repeat;
-  background-size: 72px 177px;
   background-position-y: 327px;
 }
 
@@ -53,6 +55,17 @@
   line-height: 1em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 374px) {
+
+  .collection-section {
+  background-image: url(/img/collection/bg-ornament-mob.png);
+  background-repeat: no-repeat;
+  background-size: 72px 177px;
+      background-position-y: 516px;
+    }
+
 }
 
 @media screen and (min-width: 768px) {

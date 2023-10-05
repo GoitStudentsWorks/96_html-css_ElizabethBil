@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 375px) {
+
   .testimonials-title {
     margin-bottom: 31px;
     text-align: left;
@@ -55,7 +55,7 @@
     position: absolute;
     top: -24px;
   }
-}
+
 
 @media screen and (min-width: 768px) {
   .testimonials-title {
