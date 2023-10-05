@@ -71,10 +71,10 @@
 .header-mobile-menu {
   position: fixed;
   z-index: 9999999;
-  width: 100%;
+  width: 75%;
   height: 100%;
   top: 0;
-  left: 0;
+  right: 0;
   background: #ecd979;
   background-image: url(/img/moblie-menu/mobile-menu.png);
   background-repeat: no-repeat;
